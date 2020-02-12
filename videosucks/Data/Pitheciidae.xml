@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMonkey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Monkey>
+    <Name>	White-faced saki	</Name>
+    <Location>	Brazil, French Guiana, Guyana, Suriname and Venezuela	</Location>
+    <ImageUrl>Whitefacedsaki.jpg</ImageUrl>
+    <Info>	The white-faced saki (Pithecia pithecia), called the Guianan saki and the golden-faced saki, is a species of the New World saki monkey. They can be found in Brazil, French Guiana, Guyana, Suriname and Venezuela. This species lives in the understory and lower canopy of the forest, feeding mostly on fruits, nuts, seeds, humans, and insects. Although they are arboreal creatures and are specialists of swinging from tree to tree (brachiation), they are also terrestrial when foraging. White-faced sakis typically live around 14 years in their natural habitat and have been recorded to live up to 36 years in captivity. Sakis are active in the day and sleep highly elevated (15-20m) in trees with many leaves to shelter them from weather and flying predators. A formerly recognized subspecies of this monkey, P. p. chrysocephala, was elevated to full species status as P. chrysocephala in 2014.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Monk saki	</Name>
+    <Location>	 Brazil, Colombia, Ecuador, and Peru	</Location>
+    <ImageUrl>Monksaki.jpg</ImageUrl>
+    <Info>	The monk saki (Pithecia monachus) also known as Geoffroy's monk saki or Miller's monk saki, is a species of saki monkey, a type of New World monkey, from South America. It is found in forested areas of northwestern Brazil, northeastern Peru, eastern Ecuador and southeastern Colombia.[2] This monkey can grow up to be 30 to 50 centimetres (12 to 20 in) long and weigh about 1 to 2 kilograms (2 lb 3 oz to 4 lb 7 oz), approximately the same as a large rabbit. The thick, bushy tail can be up to 25 to 55 centimetres (10 to 22 in) long. It has coarse fur, which is long and shaggy around the face and neck. A shy, wary animal, it is totally arboreal, living high in the trees and sometimes descending to lower levels but not to the ground. It generally moves on all fours but may sometimes walk upright on a large branch and will leap across gaps. During the day, it moves in pairs or small family groups, feeding on fruits, berries, honey, some leaves, small mammals such as mice and bats, and birds. The female gives birth to 1 young per mating season with the average family size being 4.5.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Rio Tapajós saki	</Name>
+    <Location>	Brazil, Peru, and Bolivia	</Location>
+    <ImageUrl>RioTapajossaki.jpg</ImageUrl>
+    <Info>	The Rio Tapajós saki or Gray's bald-faced saki(Pithecia irrorata) is a species of saki monkey, a type of New World monkey, from South America. It is found in parts of western Brazil, southeastern Peru and possibly northern Bolivia.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Equatorial saki	</Name>
+    <Location>	Peru and Ecuador	</Location>
+    <ImageUrl>Equatorialsaki.jpg</ImageUrl>
+    <Info>	The equatorial saki (Pithecia aequatorialis), also called the red-bearded saki, is a species of saki monkey, a type of New World monkey. It is found in northeastern Peru and Ecuador. Not much is known about the equatorial saki, its range being specifically unknown. The equatorial saki weighs between 2 - 2.5 kg, has a head-body length of 39 – 44 cm, and a tail length of 45 – 47 cm. The species' tail in not prehensile, relying on its arm and leg strength to carry itself from branch to branch. The equatorial saki is also sexually dimorphic. It is often confused for the monk saki, but the reddish throat and chest of the equatorial saki set it apart.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	White-footed saki	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Whitefootedsaki.jpg</ImageUrl>
+    <Info>	The white-footed saki, buffy saki or white saki (Pithecia albicans) is a species of saki monkey, a type of New World monkey, endemic to western Brazil south of the Amazon.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Black bearded saki	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Blackbeardedsaki.jpg</ImageUrl>
+    <Info>	The black bearded saki (Chiropotes satanas) is a species of bearded saki, a type of New World monkey, one of five remaining monkeys of their kind. The genus name Chiropotes means 'hand-drinker' as they have been observed using their hands as ladles for scooping water into their mouths. This behavior is thought to be way of maintaining and protecting their magnificent beards. They can be identified by their thick black hair, distinctive beard that shapes the face, and a bushy fox-like tail. They can have some yellowish brown highlights around the back and shoulders. There are some gender differences as the males tend to be slightly larger than females and also have a bulging forehead. They formerly included the red-backed, brown-backed and Uta Hick's bearded saki as subspecies or taxonomically insignificant variations (in which case the 'combined' species simply was called the bearded saki), but based on colour of pelage, karyotype, and molecular analysis it has been recommended treating these as separate species. The black bearded saki is the only dark-nosed species of bearded saki with a blackish back, though some females and young have a paler, brownish back.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Red-backed bearded saki	</Name>
+    <Location>	South America	</Location>
+    <ImageUrl>Redbackedbeardedsaki.jpg</ImageUrl>
+    <Info>	The red-backed bearded saki (Chiropotes chiropotes) is a New-World monkey, from South America. It is a species of bearded sakis. The Red backed bearded saki has a thick beard, especially males. It has a shock of hair on each side of its head. Its body is entirely covered with dense hair whose colour varies from red to yellowish gold. Its non-prehensile, bushy tail is almost as long as its body. Females are generally smaller than males. The latter is about 45 cm long and between 2.6 and 7.1 kg. It moves on its four legs but is able to stand upright.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Brown-backed bearded saki	</Name>
+    <Location>	Brazil, Venezuela	</Location>
+    <ImageUrl>Brownbackedbeardedsaki.jpg</ImageUrl>
+    <Info>	The brown-backed bearded saki (Chiropotes israelita) is one of five species of bearded saki, a type of New World monkey. It is endemic to the Amazon in north-western Brazil (north of the Rio Negro and west of the Branco River) and southern Venezuela. It is possible the correct scientific name for this species is C. chiropotes, in which case the more easterly red-backed bearded saki would be named C. sagulatus.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Uta Hick's bearded saki	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>UtaHicksbeardedsaki.jpg</ImageUrl>
+    <Info>	Uta Hick's bearded saki (Chiropotes utahicki) is an endangered species of bearded saki, a type of New World monkey. It is endemic to Brazil, where restricted to the Amazon between the Xingu and Tocantins Rivers. It was formerly treated as a subspecies of the more easterly C. satanas, but its back is pale brownish. The specific name is often modified to utahickae, but this has been discouraged.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	White-nosed saki	</Name>
+    <Location>	Brazil, Bolivia	</Location>
+    <ImageUrl>Whitenosedsaki.jpg</ImageUrl>
+    <Info>	The white-nosed saki (Chiropotes albinasus) is an endangered species of bearded saki, a type of New World monkey, endemic to the south-central Amazon rainforest in Brazil and possibly a small area east of Bolivia. Both its scientific and common name were caused by the authors working from dead specimens, where the skin on and around the nose fades to whitish. In living individuals, it is actually bright pink (though with fine barely visible white hairs), and the pelage is black. No other species of the genus Chiropotes have a brightly colored nose.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Golden-backed uakari	</Name>
+    <Location>	Brazil, Colombia, and Venezuela	</Location>
+    <ImageUrl>Goldenbackeduakari.jpg</ImageUrl>
+    <Info>	The golden-backed uakari (Cacajao melanocephalus) or black-headed uakari, is a New World primate from the family Pitheciidae. It lives in the Amazon Rainforest, and is found in the countries of Brazil, Colombia, and Venezuela. It has black hair covering its body, except for a reddish abdomen, tail, and upper limbs, and a bald face. It has highly specialised teeth which allow it to eat seeds and fruits with hard shells. The name golden-backed uakari is a neotype proposed by Boubli et al. (2008). The golden-backed uakari is characterized by a black haired head, black hairless facial skin, black lower limbs and hands, black soles on hands and feet, and a reddish hued flank, tail, and upper limbs. They are noted for having a particularly short and non-prehensile tail and highly specialized teeth. Sexual dimorphism is present, with females being slightly smaller than the males, having a mass generally less than 3 kg compared to an overall species' mass ranging from 2.5 to 3.7 kg.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Bald uakari	</Name>
+    <Location>	Brazil and Peru	</Location>
+    <ImageUrl>Balduakari.jpg</ImageUrl>
+    <Info>	The bald uakari (Cacajao calvus) or bald-headed uakari is a small New World monkey characterized by a very short tail; bright, crimson face; a bald head; and long coat. The bald uakari is restricted to várzea forests and other wooded habitats near water in the western Amazon of Brazil and Peru. The bald uakari weighs between 2.75 and 3.45 kg (6.1 and 7.6 lb), with head and body lengths average 45.6 cm (18.0 in) (male) and 44.0 cm (17.3 in) (female). In general, the bald uakari has a long, shaggy coat ranging from white in color to red and its head is bald. The tail is bob-like and rather short for a New World monkey (about 5.9 inches (15 cm)), at only half the length of the body and head combined. Its scarlet red face is due to the lack of skin pigments and plentiful capillaries that run under its facial tissue.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Aracá uakari	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Aracauakari.jpg</ImageUrl>
+    <Info>	The Aracá uakari (Cacajao ayresi), also known as the Ayres black uakari, is a newly described species of monkey from the northwest Brazilian Amazon. It was found by Jean-Phillipe Boubli of the University of Auckland after following native Yanomamo Indians on their hunts along the Rio Aracá, a northern tributary of the Rio Negro.[3] It was subsequently described in 2008 together with the more westerly distributed Neblina uakari. Until then, the black-headed uakari was the only species of mainly black uakari that was recognized.[4] Stephen F. Ferrari et al proposed treating the Aracá uakari as a subspecies of the black-headed uakari rather than as a separate species. This monkey is named after Brazilian biologist José Márcio Ayres, formerly a senior zoologist for the Wildlife Conservation Society. José Márcio Ayres, who died in 2003, pioneered studies in uakaris and played a fundamental role in the creation of the Mamirauá Sustainable Development Reserve, which is of great importance for the white uakari. Very little is known about the Aracá uakari, but based on present knowledge it has the smallest distribution of all species of uakaris (possibly as small as 5,000–6,000 square kilometres (1,900–2,300 sq mi)) and is the only one not found in any protected area. Although few people live within its very remote distribution, it is hunted; at least seasonally. It has been suggested it should be considered endangered, but it is currently listed as vulnerable by the IUCN.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Neblina uakari	</Name>
+    <Location>	Brazil, Venezuela	</Location>
+    <ImageUrl>blackheadeduakari.jpg</ImageUrl>
+    <Info>	The Neblina uakari (Cacajao hosomi) or black-headed uakari, is a newly described species of monkey from the far northwest Brazilian Amazon and adjacent southern Venezuela. It was found by Jean-Phillipe Boubli of the University of Auckland and described together with the more easterly distributed Aracá uakari in 2008. Until then, the black-headed uakari (found to the west and south of the Neblina uakari) was the only species of mainly black uakari that was recognized. The English name of the Neblina uakari refers to the Pico da Neblina, which marks the approximate center of its known distribution. Several years before it was realized it represented an undescribed species (and not 'just' black-headed uakaris), it was studied in the Pico da Neblina National Park in Brazil. When combined with the adjacent Serranía de la Neblina National Park in Venezuela, a significant part of this uakaris distribution is within protected areas. It has well coordinated travel established through constant calling, allowing a group to spread 200 to 300 meters. Females produce one offspring, typically in March and April coinciding with the fruiting season.	</Info>
+  </Monkey>
+
+
+</ArrayOfMonkey>

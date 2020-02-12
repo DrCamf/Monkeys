@@ -1,0 +1,39 @@
+﻿^contentpage {
+    background-color: forestgreen;
+}
+
+.MonkeyList {
+    font-style: oblique;
+    color: burlywood;
+}
+
+.infomonkey {
+    color:burlywood;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titelmonkey {
+    font-size: large;
+    color: bisque;
+}
+
+.uppmonkey {
+    font-size: medium;
+    color: bisque;
+}
+.button {
+    background-color: chartreuse;
+    border: none;
+    color:darkgoldenrod;
+    font-size:medium;
+}
+
+.buttonList {
+    background-color: chartreuse;
+    border: none;
+    color: darkgoldenrod;
+    font-size: medium;
+    
+}
+

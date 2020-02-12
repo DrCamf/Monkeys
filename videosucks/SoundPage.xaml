@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="videosucks.SoundPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ScrollView
+            x:Name="MainScroll"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="SoundArea" Padding="10">
+                <Label
+                    HorizontalOptions="Center"
+                    StyleClass="titelmonkey"
+                    Text="Sounds from different monkeys" />
+
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="RhesusmacaqueSound"
+                        StyleClass="infomonkey"
+                        Text="Sound of a Rhesus macaque" />
+                    <Image
+                        x:Name="RhesusmacaqueS"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="100"
+                        Source="Rhesusmacaque.jpg"
+                        WidthRequest="100" />
+                </Grid>
+
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="PatasMonkeySound"
+                        StyleClass="infomonkey"
+                        Text="Sound of a Patas monkey" />
+                    <Image
+                        x:Name="PatasMonkeyS"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="100"
+                        Source="PatasMonkey.jpg"
+                        WidthRequest="100" />
+                </Grid>
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="GuatemalanblackhowlerSound"
+                        StyleClass="infomonkey"
+                        Text="Sound of a Guatemalan black howler" />
+                    <Image
+                        x:Name="GuatemalanblackhowlerS"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="100"
+                        Source="Guatemalanblackhowler.jpg"
+                        WidthRequest="100" />
+                </Grid>
+
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="BlacksquirrelmonkeySound"
+                        StyleClass="infomonkey"
+                        Text="Sound of a Black squirrel monkey" />
+                    <Image
+                        x:Name="BlacksquirrelmonkeyS"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="100"
+                        Source="Blacksquirrelmonkey.jpg"
+                        WidthRequest="100" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

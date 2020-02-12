@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="videosucks.StartPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ScrollView
+            x:Name="MainScroll"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <StackLayout Padding="10">
+
+                <Label
+                    HorizontalOptions="Center"
+                    StyleClass="titelmonkey"
+                    Text="Monkeys of the world" />
+                <Label StyleClass="uppmonkey" Text="Old world monkeys" />
+                <Label StyleClass="infomonkey" Text="Old World monkey is the common English name for a family of primates known taxonomically as the Cercopithecidae.                 Old World monkeys are native to Africa and Asia today, inhabiting numerous environments: tropical rain forests, savannas, shrublands, and mountainous terrain. They inhabited much of Europe in the past; today, the only survivors in Europe are the Barbary macaques of Gibraltar. Whether they are native to Gibraltar or were brought by humans is unknown." />
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="oldworldL"
+                        StyleClass="infomonkey"
+                        Text="Go to the Old World" />
+                    <Image
+                        x:Name="oldworld"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="100"
+                        Source="Japanesemacaque.jpg"
+                        WidthRequest="100" />
+                </Grid>
+
+                <Label StyleClass="uppmonkey" Text="New world monkeys" />
+                <Label StyleClass="infomonkey" Text="New World monkeys are the five families of primates that are found in the tropical regions of Central and South America and Mexico. New World monkeys descend from African simians that colonized South America, a line that split off about 40 million years ago." />
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="newworldL"
+                        StyleClass="infomonkey"
+                        Text="Go to the New World" />
+                    <Image
+                        x:Name="newworld"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="100"
+                        Source="CommonMarmoset.jpg"
+                        WidthRequest="100" />
+                </Grid>
+
+                <Label StyleClass="uppmonkey" Text="Sounds from different monkeys" />
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="SoundsL"
+                        StyleClass="infomonkey"
+                        Text="Go to the sounds of different monkeys" />
+                    <Image
+                        x:Name="Sounds"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="150"
+                        Source="Dentsmonamonkey.jpg"
+                        WidthRequest="150" />
+                </Grid>
+
+                <Label StyleClass="uppmonkey" Text="Videos of different monkeys if it works" />
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        x:Name="VideosL"
+                        StyleClass="infomonkey"
+                        Text="Go to the videos of different monkeys, remember it's a data heavy area so being on Wifi is recommended" />
+                    <Image
+                        x:Name="Videos"
+                        Grid.Column="1"
+                        Margin="0,0,0,10"
+                        HeightRequest="100"
+                        Source="workingmonkey.jpg"
+                        WidthRequest="100" />
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

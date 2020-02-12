@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="videosucks.ShowtheMonkey"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ScrollView
+            x:Name="MainScroll"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <StackLayout Padding="10">
+                <Label
+                    x:Name="lblName"
+                    HorizontalTextAlignment="Center"
+                    StyleClass="titelmonkey" />
+                <Image
+                    x:Name="imgMonkey"
+                    HeightRequest="250"
+                    WidthRequest="250" />
+                <Label x:Name="fromMonkey" StyleClass="infomonkey" />
+                <Label StyleClass="uppmonkey" Text="Info about the monkey:" />
+                <Label
+                    x:Name="infoMonkey"
+                    LineBreakMode="WordWrap"
+                    StyleClass="infomonkey" />
+                <Button
+                    x:Name="backButton"
+                    Clicked="NavigateButton_OnClicked"
+                    StyleClass="button"
+                    Text="Tilbage" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

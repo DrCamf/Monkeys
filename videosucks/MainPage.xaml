@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="videosucks.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:shared="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
+    mc:Ignorable="d">
+    <ScrollView
+        x:Name="MainScroll"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand">
+        <StackLayout Padding="10">
+
+            <Label
+                HorizontalOptions="Center"
+                StyleClass="titelmonkey"
+                Text="Monkeys of the world" />
+            <Image
+                Aspect="AspectFill"
+                HeightRequest="400"
+                Source="startcollage.jpg"
+                WidthRequest="400" />
+
+            <Label
+                x:Name="StartContinue"
+                Margin="0,20"
+                StyleClass="uppmonkey"
+                Text="Would you like to continue" />
+            <Label StyleClass="uppmonkey" Text="Or" />
+            <Label
+                x:Name="StartNo"
+                Margin="0,20"
+                StyleClass="uppmonkey"
+                Text="Take your stinking paws off me, you damn dirty ape!" />
+
+        </StackLayout>
+    </ScrollView>
+    <!--<StackLayout>
+
+        <Label Text="Welcome to video views" />
+        <Button
+            x:Name="goVideoPage"
+            Clicked="goVideoPage_Clicked"
+            Text="Go to video page" />
+    </StackLayout>-->
+
+</ContentPage>

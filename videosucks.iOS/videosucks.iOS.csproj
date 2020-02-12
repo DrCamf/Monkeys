@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD81DB0B-C6DE-4582-9E3B-0E4B71717425}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>videosucks.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>videosucks.iOS</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\FontAwesome5Regular.otf" />
+    <BundleResource Include="Resources\FontAwesome5Solid.otf" />
+    <BundleResource Include="Resources\FontAwesome5Brands.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Aloauttinae.xcassets\Amazonblackhowler.imageset\Amazonblackhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Amazonblackhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Blackhowler.imageset\Blackhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Blackhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Bolivianredhowler.imageset\Bolivianredhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Bolivianredhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Brownhowler.imageset\Brownhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Brownhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\CoibaIslandhowler.imageset\CoibaIslandhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\CoibaIslandhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Guatemalanblackhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Guatemalanblackhowler.imageset\Guatemalanblackhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Guyananredhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Guyananredhowler.imageset\Guyananredhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Mantledhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\RedhandedHowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Venezuelanredhowler.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Mantledhowler.imageset\Mantledhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\RedhandedHowler.imageset\RedhandedHowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aloauttinae.xcassets\Venezuelanredhowler.imageset\Venezuelanredhowler.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Azarasnightmonkey.imageset\Azarasnightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Azarasnightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Blackheadednightmonkey.imageset\Blackheadednightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Blackheadednightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Brumbacksnightmonkey.imageset\Brumbacksnightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Brumbacksnightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Graybelliednightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Graybelliednightmonkey.imageset\Graybelliednightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Grayhandednightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Grayhandednightmonkey.imageset\Grayhandednightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\HernandezCamachosnightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\HernandezCamachosnightmonkey.imageset\HernandezCamachosnightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Panamaniannightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Peruviannightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Spixsnightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Threestripednightmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Panamaniannightmonkey.imageset\Panamaniannightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Peruviannightmonkey.imageset\Peruviannightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Spixsnightmonkey.imageset\Spixsnightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Aotidae.xcassets\Threestripednightmonkey.imageset\Threestripednightmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Blackheadedspidermonkey.imageset\Blackheadedspidermonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Blackheadedspidermonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Brownspidermonkey.imageset\Brownspidermonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Brownspidermonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Brownwoollymonkey.imageset\Brownwoollymonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Colombianwoollymonkey.imageset\Colombianwoollymonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Geoffroysspidermonkey.imageset\Geoffroysspidermonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Graywoollymonkey.imageset\Graywoollymonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Southernmuriqui.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Whitebelliedspidermonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Whitecheekedspidermonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Yellowtailedwoollymonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Brownwoollymonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Colombianwoollymonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Geoffroysspidermonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Graywoollymonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Northernmuriqui.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Peruvianspidermonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Redfacedspidermonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Silverywoollymonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Northernmuriqui.imageset\Northernmuriqui.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Peruvianspidermonkey.imageset\Peruvianspidermonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Redfacedspidermonkey.imageset\Redfacedspidermonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Silverywoollymonkey.imageset\Silverywoollymonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Southernmuriqui.imageset\Southernmuriqui.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Whitebelliedspidermonkey.imageset\Whitebelliedspidermonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Whitecheekedspidermonkey.imageset\Whitecheekedspidermonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Atelinae.xcassets\Yellowtailedwoollymonkey.imageset\Yellowtailedwoollymonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Ashyblacktiti.imageset\Ashyblacktiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Ashyblacktiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Atlantictiti.imageset\Atlantictiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Atlantictiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\BaptistaLaketiti.imageset\BaptistaLaketiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\BarbaraBrownstiti.imageset\BarbaraBrownstiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Blackfrontedtiti.imageset\Blackfrontedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Blacktiti.imageset\Blacktiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Browntiti.imageset\Browntiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Chestnutbelliedtiti.imageset\Chestnutbelliedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Coastalblackhandedtiti.imageset\Coastalblackhandedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\CoimbraFilhostiti.imageset\CoimbraFilhostiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Collaredtiti.imageset\Collaredtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Collaredtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Copperytiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Copperytiti.imageset\Copperytiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Hoffmannsstiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Hoffmannsstiti.imageset\Hoffmannsstiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Lucifertiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Madidititi.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Ollalabrothersstiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Ornatetiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Panamanianwhitefacedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\PrinceBernhardstiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Redbelliedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\BaptistaLaketiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Redheadedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\RioBenititi.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\RioMayotiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\StephenNashstiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Whitecoatedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Whiteearedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Whitetailedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\BarbaraBrownstiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Blackfrontedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Blacktiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Browntiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Chestnutbelliedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Coastalblackhandedtiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\CoimbraFilhostiti.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Lucifertiti.imageset\Lucifertiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Madidititi.imageset\Madidititi.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Ollalabrothersstiti.imageset\Ollalabrothersstiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Ornatetiti.imageset\Ornatetiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Panamanianwhitefacedcapuchin.imageset\Panamanianwhitefacedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\PrinceBernhardstiti.imageset\PrinceBernhardstiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Redbelliedtiti.imageset\Redbelliedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Redheadedtiti.imageset\Redheadedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\RioBenititi.imageset\RioBenititi.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\RioMayotiti.imageset\RioMayotiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\StephenNashstiti.imageset\StephenNashstiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Whitecoatedtiti.imageset\Whitecoatedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Whiteearedtiti.imageset\Whiteearedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callicebinae.xcassets\Whitetailedtiti.imageset\Whitetailedtiti.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\blackhandedtamarin.imageset\blackhandedtamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\blackhandedtamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Blackheadedmarmoset.imageset\Blackheadedmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Blackheadedmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\BlackLionTamarin.imageset\BlackLionTamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Blackmantledtamarin.imageset\Blackmantledtamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\blacktailedmarmoset.imageset\blacktailedmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Blacktuftedmarmoset.imageset\Blacktuftedmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\buffyheadedmarmoset.imageset\buffyheadedmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Buffytuftedmarmoset.imageset\Buffytuftedmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\CommonMarmoset.imageset\CommonMarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Geoffroystamarin.imageset\Geoffroystamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goeldismarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goeldismarmoset.imageset\Goeldismarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goldandwhitemarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goldandwhitemarmoset.imageset\Goldandwhitemarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goldenheadedliontamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goldenheadedliontamarin.imageset\Goldenheadedliontamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goldenliontamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Goldenliontamarin.imageset\Goldenliontamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Marcasmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Pygmymarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Redhandedtamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Roosmalensdwarfmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Santaremmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\silverymarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\BlackLionTamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Superaguiliontamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\weidsmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Whitefootedtamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\whiteheadedmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Blackmantledtamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\blacktailedmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Blacktuftedmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\buffyheadedmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Buffytuftedmarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\CommonMarmoset.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Geoffroystamarin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Marcasmarmoset.imageset\Marcasmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Pygmymarmoset.imageset\Pygmymarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Redhandedtamarin.imageset\Redhandedtamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Roosmalensdwarfmarmoset.imageset\Roosmalensdwarfmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Santaremmarmoset.imageset\Santaremmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\silverymarmoset.imageset\silverymarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Superaguiliontamarin.imageset\Superaguiliontamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\weidsmarmoset.imageset\weidsmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\Whitefootedtamarin.imageset\Whitefootedtamarin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Callitrichidae.xcassets\whiteheadedmarmoset.imageset\whiteheadedmarmoset.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Azarasscapuchin.imageset\Azarasscapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Azarasscapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Bareearedsquirrelmonkey.imageset\Bareearedsquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Bareearedsquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blackcappedsquirrelmonkey.imageset\Blackcappedsquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blackcapuchin.imageset\Blackcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blacksquirrelmonkey.imageset\Blacksquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blackstripedcapuchin.imageset\Blackstripedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blondcapuchin.imageset\Blondcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Brownweepercapuchin.imageset\Brownweepercapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\CentralAmericansquirrelmonkey.imageset\CentralAmericansquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Collinssquirrelmonkey.imageset\Collinssquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Colombianwhitefacedcapuchin.imageset\Colombianwhitefacedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Colombianwhitefacedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Ecuadoriancapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Ecuadoriancapuchin.imageset\Ecuadoriancapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Ecuadoriansquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Ecuadoriansquirrelmonkey.imageset\Ecuadoriansquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Goldenbelliedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Goldenbelliedcapuchin.imageset\Goldenbelliedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Guianansquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Guianansquirrelmonkey.imageset\Guianansquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Humboldtssquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Humboldtssquirrelmonkey.imageset\Humboldtssquirrelmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Humboldtswhitefrontedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Humboldtswhitefrontedcapuchin.imageset\Humboldtswhitefrontedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Kaaporicapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Maranonwhitefrontedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Panamanianwhitefacedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blackcappedsquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\RioCesarwhitefrontedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\SantaMartawhitefrontedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Shockheadedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\SierradePerijawhitefrontedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Spixswhitefrontedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Tuftedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Variedwhitefrontedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Wedgecappedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blackcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blacksquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blackstripedcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Blondcapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Brownweepercapuchin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\CentralAmericansquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Collinssquirrelmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Kaaporicapuchin.imageset\Kaaporicapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Maranonwhitefrontedcapuchin.imageset\Maranonwhitefrontedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Panamanianwhitefacedcapuchin.imageset\Panamanianwhitefacedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\RioCesarwhitefrontedcapuchin.imageset\RioCesarwhitefrontedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\SantaMartawhitefrontedcapuchin.imageset\SantaMartawhitefrontedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Shockheadedcapuchin.imageset\Shockheadedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\SierradePerijawhitefrontedcapuchin.imageset\SierradePerijawhitefrontedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Spixswhitefrontedcapuchin.imageset\Spixswhitefrontedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Tuftedcapuchin.imageset\Tuftedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Variedwhitefrontedcapuchin.imageset\Variedwhitefrontedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cebidae.xcassets\Wedgecappedcapuchin.imageset\Wedgecappedcapuchin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Allensswampmonkey.imageset\Allensswampmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Angolantalapoin.imageset\Angolantalapoin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Allensswampmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Angolantalapoin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\BaleMountainsvervet.imageset\BaleMountainsvervet.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Campbellsmonamonkey.imageset\Campbellsmonamonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Crestedmonamonkey.imageset\Crestedmonamonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\DeBrazzasmonkey.imageset\DeBrazzasmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Dentsmonamonkey.imageset\Dentsmonamonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Dianamonkey.imageset\Dianamonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Dryasmonkey.imageset\Dryasmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Gabontalapoin.imageset\Gabontalapoin.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Goldenmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Goldenmonkey.imageset\Goldenmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Greaterspotnosedmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Greaterspotnosedmonkey.imageset\Greaterspotnosedmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Greenmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Greenmonkey.imageset\Greenmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Grivet.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Grivet.imageset\Grivet.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Hamlynsmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Hamlynsmonkey.imageset\Hamlynsmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\LesserspotnosedMonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\LHoestsmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Lowesmonamonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Malbrouck.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\MonaMonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\BaleMountainsvervet.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Moustachedguenon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\PatasMonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Preusssmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Redearedguenon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Redtailedmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Rolowaymonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Sclatersguenon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Suntailedmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Sykesmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Tantalusmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Campbellsmonamonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Vervetmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Whitethroatedguenon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Wolfsmonamonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Crestedmonamonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\DeBrazzasmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Dentsmonamonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Dianamonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Dryasmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Gabontalapoin.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\LesserspotnosedMonkey.imageset\LesserspotnosedMonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\LHoestsmonkey.imageset\LHoestsmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Lowesmonamonkey.imageset\Lowesmonamonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Malbrouck.imageset\Malbrouck.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\MonaMonkey.imageset\MonaMonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Moustachedguenon.imageset\Moustachedguenon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\PatasMonkey.imageset\PatasMonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Preusssmonkey.imageset\Preusssmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Redearedguenon.imageset\Redearedguenon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Redtailedmonkey.imageset\Redtailedmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Rolowaymonkey.imageset\Rolowaymonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Sclatersguenon.imageset\Sclatersguenon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Suntailedmonkey.imageset\Suntailedmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Sykesmonkey.imageset\Sykesmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Tantalusmonkey.imageset\Tantalusmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Vervetmonkey.imageset\Vervetmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Whitethroatedguenon.imageset\Whitethroatedguenon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Cercopithecini.xcassets\Wolfsmonamonkey.imageset\Wolfsmonamonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Bandedsurili.imageset\Bandedsurili.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Bandedsurili.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Blackfootedgraylangur.imageset\Blackfootedgraylangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Blackfootedgraylangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Cappedlangur.imageset\Cappedlangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Delacourslangur.imageset\Delacourslangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Duskyleafmonkey.imageset\Duskyleafmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Francoislangur.imageset\Francoislangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Geesgoldenlangur.imageset\Geesgoldenlangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Hatinhlangur.imageset\Hatinhlangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Hoseslangur.imageset\Hoseslangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Indochineselutung.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Javanlutung.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Javansurili.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Kashmirgraylangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Laotianlangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Maroonleafmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Mentawailangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\NatunaIslandsurili.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Nepalgraylangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Nilgirilangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Cappedlangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Northernplainsgraylangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Phayresleafmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Purplefacedlangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Sarawaksurili.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Shortridgeslangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Silverylutung.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Southernplainsgraylangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Sumatransurili.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Taraigraylangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Thomasslangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Delacourslangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Tuftedgraylangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Whitefrontedsurili.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Whiteheadedlangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Whitethighedsurili.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Duskyleafmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Francoislangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Geesgoldenlangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Hatinhlangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Hoseslangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Indochineseblacklangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Indochineseblacklangur.imageset\Indochineseblacklangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Indochineselutung.imageset\Indochineselutung.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Javanlutung.imageset\Javanlutung.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Javansurili.imageset\Javansurili.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Kashmirgraylangur.imageset\Kashmirgraylangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Laotianlangur.imageset\Laotianlangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Maroonleafmonkey.imageset\Maroonleafmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Mentawailangur.imageset\Mentawailangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\NatunaIslandsurili.imageset\NatunaIslandsurili.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Nepalgraylangur.imageset\Nepalgraylangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Nilgirilangur.imageset\Nilgirilangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Northernplainsgraylangur.imageset\Northernplainsgraylangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Phayresleafmonkey.imageset\Phayresleafmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Purplefacedlangur.imageset\Purplefacedlangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Sarawaksurili.imageset\Sarawaksurili.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Shortridgeslangur.imageset\Shortridgeslangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Silverylutung.imageset\Silverylutung.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Southernplainsgraylangur.imageset\Southernplainsgraylangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Sumatransurili.imageset\Sumatransurili.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Taraigraylangur.imageset\Taraigraylangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Thomasslangur.imageset\Thomasslangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Tuftedgraylangur.imageset\Tuftedgraylangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Whitefrontedsurili.imageset\Whitefrontedsurili.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Whiteheadedlangur.imageset\Whiteheadedlangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobinae.xcassets\Whitethighedsurili.imageset\Whitethighedsurili.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Angolacolobus.imageset\Angolacolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Angolacolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Blackcolobus.imageset\Blackcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Blackcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Bouviersredcolobus.imageset\Bouviersredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Foasredcolobus.imageset\Foasredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\OliveColobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Pennantscolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Preusssredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Semlikiredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\TanaRiverredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Temmincksredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Udzungwaredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Ugandanredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Ursinecolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Westernredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Bouviersredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Zanzibarredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Foasredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Kingcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Langsredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Lomamiredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Mantledguereza.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\MissWaldronsredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\NigerDeltaredcolobus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Kingcolobus.imageset\Kingcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Langsredcolobus.imageset\Langsredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Lomamiredcolobus.imageset\Lomamiredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Mantledguereza.imageset\Mantledguereza.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\MissWaldronsredcolobus.imageset\MissWaldronsredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\NigerDeltaredcolobus.imageset\NigerDeltaredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\OliveColobus.imageset\OliveColobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Pennantscolobus.imageset\Pennantscolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Preusssredcolobus.imageset\Preusssredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Semlikiredcolobus.imageset\Semlikiredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\TanaRiverredcolobus.imageset\TanaRiverredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Temmincksredcolobus.imageset\Temmincksredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Udzungwaredcolobus.imageset\Udzungwaredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Ugandanredcolobus.imageset\Ugandanredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Ursinecolobus.imageset\Ursinecolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Westernredcolobus.imageset\Westernredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Colobus.xcassets\Zanzibarredcolobus.imageset\Zanzibarredcolobus.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Blackshankeddouc.imageset\Blackshankeddouc.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Blackshankeddouc.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Blacksnubnosedmonkey.imageset\Blacksnubnosedmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Blacksnubnosedmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Goldensnubnosedmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Goldensnubnosedmonkey.imageset\Goldensnubnosedmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Grayshankeddouc.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Grayshankeddouc.imageset\Grayshankeddouc.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Graysnubnosedmonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Graysnubnosedmonkey.imageset\Graysnubnosedmonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Pigtailedlangur.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Proboscismonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Redshankeddouc.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\TonkinsnubnosedMonkey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Pigtailedlangur.imageset\Pigtailedlangur.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Proboscismonkey.imageset\Proboscismonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\Redshankeddouc.imageset\Redshankeddouc.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Oddnosed.xcassets\TonkinsnubnosedMonkey.imageset\TonkinsnubnosedMonkey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Agilemangabey.imageset\Agilemangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Agilemangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Arunachalmacaque.imageset\Arunachalmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Arunachalmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Assammacaque.imageset\Assammacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Barbarymacaque.imageset\Barbarymacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Blackcrestedmangabey.imageset\Blackcrestedmangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Bonnetmacaque.imageset\Bonnetmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Bootedmacaque.imageset\Bootedmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Celebescrestedmacaque.imageset\Celebescrestedmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Chacmababoon.imageset\Chacmababoon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Collaredmangabey.imageset\Collaredmangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Crabeatingmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Crabeatingmacaque.imageset\Crabeatingmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Drill.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Drill.imageset\Drill.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Formosanrockmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Formosanrockmacaque.imageset\Formosanrockmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Gelada.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Gelada.imageset\Gelada.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Goldenbelliedmangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Goldenbelliedmangabey.imageset\Goldenbelliedmangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Gorontalomacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Gorontalomacaque.imageset\Gorontalomacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Greycheekedmangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Greycheekedmangabey.imageset\Greycheekedmangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Guineababoon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Guineababoon.imageset\Guineababoon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Hamadryasbaboon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Hamadryasbaboon.imageset\Hamadryasbaboon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Hecksmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Assammacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Hecksmacaque.imageset\Hecksmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Japanesemacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Kipunji.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Liontailedmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Mandrill.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Moormacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\NorthernpigtailedMacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Olivebaboon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Opdenboschsmangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\OsmanHillsmangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\PagaiIslandmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Barbarymacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Rhesusmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Sanjemangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Siberutmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Sootymangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Southernpigtailedmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Stumptailedmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\TanaRivermangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Tibetanmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Tonkeanmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Toquemacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Blackcrestedmangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Ugandamangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Yellowbaboon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Bonnetmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Bootedmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Celebescrestedmacaque.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Chacmababoon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Collaredmangabey.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Japanesemacaque.imageset\Japanesemacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Kipunji.imageset\Kipunji.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Liontailedmacaque.imageset\Liontailedmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Mandrill.imageset\Mandrill.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Moormacaque.imageset\Moormacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\NorthernpigtailedMacaque.imageset\NorthernpigtailedMacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Olivebaboon.imageset\Olivebaboon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Opdenboschsmangabey.imageset\Opdenboschsmangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\OsmanHillsmangabey.imageset\OsmanHillsmangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\PagaiIslandmacaque.imageset\PagaiIslandmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Rhesusmacaque.imageset\Rhesusmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Sanjemangabey.imageset\Sanjemangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Siberutmacaque.imageset\Siberutmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Sootymangabey.imageset\Sootymangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Southernpigtailedmacaque.imageset\Southernpigtailedmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Stumptailedmacaque.imageset\Stumptailedmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\TanaRivermangabey.imageset\TanaRivermangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Tibetanmacaque.imageset\Tibetanmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Tonkeanmacaque.imageset\Tonkeanmacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Toquemacaque.imageset\Toquemacaque.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Ugandamangabey.imageset\Ugandamangabey.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Papionini.xcassets\Yellowbaboon.imageset\Yellowbaboon.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Aracauakari.imageset\Aracauakari.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Aracauakari.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Balduakari.imageset\Balduakari.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Balduakari.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Blackbeardedsaki.imageset\Blackbeardedsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\blackheadeduakari.imageset\blackheadeduakari.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Brownbackedbeardedsaki.imageset\Brownbackedbeardedsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Equatorialsaki.imageset\Equatorialsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Goldenbackeduakari.imageset\Goldenbackeduakari.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\UtaHicksbeardedsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Whitefacedsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Whitefootedsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Whitenosedsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Blackbeardedsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\blackheadeduakari.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Brownbackedbeardedsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Equatorialsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Goldenbackeduakari.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Monksaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Redbackedbeardedsaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\RioTapajossaki.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Monksaki.imageset\Monksaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Redbackedbeardedsaki.imageset\Redbackedbeardedsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\RioTapajossaki.imageset\RioTapajossaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\UtaHicksbeardedsaki.imageset\UtaHicksbeardedsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Whitefacedsaki.imageset\Whitefacedsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Whitefootedsaki.imageset\Whitefootedsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Pitheciidae.xcassets\Whitenosedsaki.imageset\Whitenosedsaki.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\videosucks\videosucks.csproj">
+      <Project>{4A396A33-A29A-430E-9464-252FBF97B75E}</Project>
+      <Name>videosucks</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

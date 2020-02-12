@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMonkey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Monkey>
+    <Name>	Common marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>CommonMarmoset.jpg</ImageUrl>
+    <Info>	The common marmoset (Callithrix jacchus) is a New World monkey. It originally lived on the northeastern coast of Brazil, in the states of Piaui, Paraiba, Ceará, Rio Grande do Norte, Pernambuco, Alagoas and Bahia. Through release (both intentional and unintentional) of captive individuals, it has expanded its range since the 1920s to Southeast Brazil (its first sighting in the wild for Rio de Janeiro was in 1929), where it became an invasive species, raising concerns about genetic pollution of similar species, such as the buffy-tufted marmoset (Callithrix aurita), and predation upon bird nestlings and eggs.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Black-tufted marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Blacktuftedmarmoset.jpg</ImageUrl>
+    <Info>	The black-tufted marmoset (Callithrix penicillata), also known as Mico-estrela in Portuguese, is a species of New World monkey that lives primarily in the Neo-tropical gallery forests of the Brazilian Central Plateau. It ranges from Bahia to Paraná, and as far inland as Goiás, between 14 and 25 degrees south of the equator, and can commonly be seen in the City of Rio de Janeiro where it was introduced. This marmoset typically resides in rainforests, living an arboreal life high in the trees, but below the canopy. They are only rarely spotted near the ground.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Wied's marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>weidsmarmoset.jpg</ImageUrl>
+    <Info>	Wied's marmoset (Callithrix kuhlii), also known as Wied's black-tufted-ear marmoset, is a New World monkey that lives in tropical and subtropical forests of eastern Brazil. Unlike other marmosets, Wied's marmoset lives in groups consisting of 4 or 5 females and 2 or 3 males (plus children). They are matriarchal, and only the dominant female is allowed to mate. Like other marmosets, the offspring are always born in pairs.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	White-headed marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>whiteheadedmarmoset.jpg</ImageUrl>
+    <Info>	The white-headed marmoset (Callithrix geoffroyi), also known as the tufted-ear marmoset, Geoffroy's marmoset, or Geoffrey's marmoset, is a marmoset endemic to Brazil. It is known as the sagüi or sauim in Brazil. One of the more common callitrichids in captivity, many zoos keep and breed the species. In fact, some zoos have to use birth-control methods for them.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Buffy-headed marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>buffyheadedmarmoset.jpg</ImageUrl>
+    <Info>	The buffy-headed marmoset (Callithrix flaviceps) is a rare species of marmoset endemic to the rainforests of south-eastern Brazil. It occurs in southern Espírito Santo and possibly northern Rio de Janeiro and its distribution extends into Minas Gerais.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Buffy-tufted marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Buffytuftedmarmoset.jpg</ImageUrl>
+    <Info>	The buffy-tufted marmoset (Callithrix aurita), also known as the buffy tufted-ear marmoset or white-eared marmoset, is a New World monkey that lives in the forests on the Atlantic coast of southeast Brazil. Of all the marmosets, it has the southernmost range. The buffy-tufted marmoset resembles the common marmoset but is somewhat larger. It has grey-black skin, and the most obvious differences from the common marmoset are its whitish face ("skulllike facial mask" ), brown crown and shorter ear tufts. The buffy-tufted marmoset lives in coastal forests from sea-level up to 500 m. It is diurnal and arboreal, living almost all its life in the trees. It lives in small groups of two to eight animals. Unlike most other marmosets, the buffy-tufted marmoset almost exclusively eats insects. It does not eat tree sap, which is why it has a very small snout. Aside from the insects the buffy-tufted marmoset consumes, this monkey also consumes varying types of flowering plants, such as Combretaceae and legumes, as well as gum, soursops and cacti. Little is known about the buffy-tufted marmoset reproductive patterns. Gestation is approximately 170 days and births are typically of twin offspring.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Silvery marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>silverymarmoset.jpg</ImageUrl>
+    <Info>	The silvery marmoset (Mico argentatus) is a New World monkey that lives in the eastern Amazon Rainforest in Brazil.The fur of the silvery marmoset is colored whitish silver-grey except for a dark tail. Remarkable are its naked, flesh-colored ears which stand out from the skin. They reach a size of 18 to 28 cm (7.1 to 11.0 in) and weigh from 300 to 400 g (11 to 14 oz).Silvery marmosets are diurnal and arboreal, using their claws to climb trees. Originally rain forest inhabitants, plantations have caused them to expand their range. They spend the night in tree hollows or in very close vegetation. They live together in small groups and mark their territory with scent glands, driving out intruders by shouting or by facial expressions (lowered brows and guarded lips).	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Black-headed marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Blackheadedmarmoset.jpg</ImageUrl>
+    <Info>	The black-headed marmoset (Mico nigriceps) is a marmoset species endemic to Brazil. It inhabits humid tropical rainforest, mostly second growth and edge; the distribution is not exactly known but is thought to be Rio dos Marmelos in the north and east, Madeira River in the west and Ji-Paraná River in the south. The threats are not exactly known but it may be near human traffic including the Trans-Amazonian Highway where cattle ranching and logging is occurring. It is not hunted but may be used as pets.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Marca's marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Marcasmarmoset.jpg</ImageUrl>
+    <Info>	The Marca's marmoset (Mico marcai) is a species of marmoset that is endemic to the Amazon, in the Aripuanã-Manicoré interfluvium in Brazil. It is virtually unknown; in 2008 the IUCN noted that it had never been seen in the wild, though it has been observed since then. Probably, Mico manicorensis will be considered a synonymous of M. marcai.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Black-tailed marmoset	</Name>
+    <Location>	South America	</Location>
+    <ImageUrl>blacktailedmarmoset.jpg</ImageUrl>
+    <Info>	The black-tailed marmoset (Mico melanurus) is a species of New World monkey from central South America, where ranging from the south-central Amazon in Brazil, south through the Pantanal and eastern Bolivia, to the Chaco in far northern Paraguay. It is the southernmost member of the genus Mico and the only where most of its range is outside the Amazon.The black-tailed marmoset is dark brown with paler foreparts and a black tail. Unlike most of its relatives, it has a striking white or yellow-white stripe that extends down its thigh. Its ears are naked, flesh-colored and stand out from the fur. They reach a size of 18 to 28 cm and weigh from 300 to 400 g.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Santarem marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Santaremmarmoset.jpg</ImageUrl>
+    <Info>	The Santarem marmoset is a small monkey, with a head-body length of 20 to 27 cm (7.9 to 10.6 in). Adults have been reported to weigh anything from 280 to 475 g (9.9 to 16.8 oz). Its physical form is similar to that of other marmosets, with lower canines that barely protrude above the line of the incisors and claws (rather than nails) on all of their digits except for the big toe. It most closely resembles the Maués marmoset in appearance, differing in having paler fur and in the shape of the ear tassels. Males and females are similar in size.The scientific name "humeralifer" roughly translates as "wearing a shoulder cape" and refers to the mantle of light grey fur that covers the animal's shoulders. There are also patches of whitish fur on the hips, but otherwise the body is black with irregular grey spots over the back and flanks, and yellowish on the underparts. The limbs are black, apart from grey fur stretching down over the outer surface of the upper arms from the mantle. The non-prehensile tail is 31 to 37 cm (12 to 15 in) long and ringed with black and grey; all but one other species in the genus Mico lack these distinctive tail rings.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Gold-and-white marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Goldandwhitemarmoset.jpg</ImageUrl>
+    <Info>	The gold-and-white marmoset (Mico chrysoleucos) is a marmoset species endemic to Brazil. Its natural habitat is subtropical or tropical moist lowland forest.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Roosmalens' dwarf marmoset	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Roosmalensdwarfmarmoset.jpg</ImageUrl>
+    <Info>	The Roosmalens' dwarf marmoset (Callibella humilis), also known as the black-crowned dwarf marmoset, is a small New World monkey native to the Amazon Rainforest, on the east bank of the lower Madeira River, and the west bank of the Aripuanã River, in Brazil. It has the smallest distribution of any primate in Amazonia. This marmoset has several unique attributes, which results in it usually being placed in the monotypic genus Callibella. Some authors, however, argue that the species is better placed in the genus Mico. It was first described in 1998, after it was discovered ca. 400 km (250 mi) south of the city of Manaus. In 1996, Marc van Roosmalen, the discoverer, was given a milk can by a river trader with one of these monkeys inside. He suspected it was a new species, a relative of the pygmy marmoset, but at that point was unaware of its exact origin. Following a lengthy expedition, it was discovered near the town of Nova Olinda in southeastern Amazonas. The species has been subsequently recorded further south, along the west banks of Rio Roosevelt.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Pygmy marmoset	</Name>
+    <Location>	South America	</Location>
+    <ImageUrl>Pygmymarmoset.jpg</ImageUrl>
+    <Info>	The pygmy marmoset (Cebuella pygmaea) is a small species of New World monkey native to rainforests of the western Amazon Basin in South America. The species is notable for being the smallest monkey and one of the smallest primates in the world, at just over 100 grams (3.5 oz) (Madame Berthe's mouse lemur is smaller). It is generally found in evergreen and river-edge forests and is a gum-feeding specialist, or a gummivore. About 83% of the pygmy marmoset population lives in stable troops of two to nine individuals, including a dominant male, a breeding female, and up to four successive litters of offspring. The modal size of a standard stable troop would be six individuals. Although most groups consist of family members, some may also include one or two additional adult members. Members of the group communicate using a complex system including vocal, chemical, and visual signals. Three main calling signals depend on the distance the call needs to travel. These monkeys may also make visual displays when threatened or to show dominance. Chemical signaling using secretions from glands on the chest and genital area allow the female to indicate to the male when she is able to reproduce. The female gives birth to twins twice a year and the parental care is shared between the group. The pygmy marmoset has been viewed as somewhat different from typical marmosets, most of which are classified in the genera Callithrix and Mico, and thus is accorded its own genus, Cebuella, within the family Callitrichidae. It is listed as Vulnerable by the International Union for Conservation of Nature. The biggest threats to the species are habitat loss and the pet trade.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Golden lion tamarin	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Goldenliontamarin.jpg</ImageUrl>
+    <Info>	The golden lion tamarin (Leontopithecus rosalia, Portuguese: mico-leão-dourado [ˈmiku leˈɐ̃w̃ dowˈɾadu], [liˈɐ̃w̃ doˈɾadu]), also known as the golden marmoset, is a small New World monkey of the family Callitrichidae. Native to the Atlantic coastal forests of Brazil, the golden lion tamarin is an endangered species. The range for wild individuals is spread across four places along southeastern Brazil, with a recent census estimating 3,200 individuals left in the wild and a captive population maintaining about 490 individuals among 150 zoos.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Golden-headed lion tamarin	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Goldenheadedliontamarin.jpg</ImageUrl>
+    <Info>	The golden-headed lion tamarin (Leontopithecus chrysomelas), also the golden-headed tamarin, is a lion tamarin endemic to Brazil. It is found only in the lowland and premontane tropical forest fragments in the state of Bahia, and therefore is considered to be an endangered species. It lives at heights of 3–10 metres (9.8–32.8 ft). Its preferred habitat is within mature forest, but with habitat destruction this is not always the case. Several sources seem to have different information on the number of individuals within a group, and the type of social system that may be apparent. The golden-headed lion tamarin lives within group sizes ranging from 2 to 11 individuals, with the average size ranging from 4 to 7. According to various sources, the group may consist of two adult males, one adult female, and any immature individuals, one male and one female and any immature individuals, or there may be one producing pair and a varying number of other group members, usually offspring from previous generations. There is not much known on its mating system, but according to different sources, and information on the possible social groups, it can be assumed that some may practice monogamous mating systems, and some may practice polyandrous mating systems. Both males and females invest energy in caring for the young,[6] and all members of the group also help with juvenile care.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Black lion tamarin	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>BlackLionTamarin.jpg</ImageUrl>
+    <Info>	The black lion tamarin (Leontopithecus chrysopygus), also known as the golden-rumped lion tamarin, is a lion tamarin endemic to the Brazilian state of São Paulo, almost exclusively at the Morro do Diabo State Park. Its limited geographical range makes it the rarest of the New World monkeys, with little known about it. It was thought to be extinct for 65 years until its rediscovery in 1970. In 2016 an adult couple was found to the east, in the Caetetus Ecological Station, after six years with no sightings. The total number of individuals is estimated to be around 1000. Some experts believe this to be an overestimate, as recent studies have shown that the average area inhabited by the black lion tamarin is closer to 106 hectares (260 acres) than the previously estimated 66 hectares (160 acres). They are usually found in groups of 4 to 9, living in the secondary and primary forests along the circumference of its home range. On average, the black lion tamarin weighs 590–640 grams (21–23 oz).	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Superagüi lion tamarin	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>Superaguiliontamarin.jpg</ImageUrl>
+    <Info>	The black-faced lion tamarin or Superagüi lion tamarin (Leontopithecus caissara) is a small New World monkey of the family Callitrichidae. It is critically endangered and endemic to coastal forests in southeastern Brazil. There are several conservation projects and the total populations is unlikely to exceed 400 individuals. It is overall golden-orange with contrasting black head, legs and tail.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Red-handed tamarin	</Name>
+    <Location>	South America	</Location>
+    <ImageUrl>Redhandedtamarin.jpg</ImageUrl>
+    <Info>	The red-handed tamarin (Saguinus midas), also known as the golden-handed tamarin or Midas tamarin, is a New World monkey belonging to the family Callitrichidae. This species is native to wooded areas north of the Amazon River in Brazil, Guyana, French Guiana, Suriname, and possibly Venezuela. A population of tamarins south of the Amazon River that lack the contrasting feet and hands was previously believed to be a sub-population of red-handed tamarins but is now treated as a separate species, the black tamarin. Populations of red-handed tamarins appear to be expanding into the historical range of the pied tamarin, with the red-handed tamarin gradually displacing the pied tamarin through interspecific competition.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	 black-handed tamarin	</Name>
+    <Location>	Brazil	</Location>
+    <ImageUrl>blackhandedtamarin.jpg</ImageUrl>
+    <Info>	The black tamarin (Saguinus niger) or black-handed tamarin, is a species of tamarin endemic to Brazil. Black-handed tamarins are among the smallest primates, weighing approximately 500 grams. As with other tamarins, the hind limbs are longer than the forelimbs and the thumbs are not opposable. With the exception of the big toe, there are claws on all fingers and toes, as well as two molars on each side of the jaw. The face of the black tamarin is generally hairless. The fur is blackish-brown with lighter markings on the back, similar to the red-handed tamarin but without the reddish-orange feet and hands of that species. The black-handed tamarin was previously regarded as a subspecies of the red-handed tamarin.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Black-mantled tamarin	</Name>
+    <Location>	South America	</Location>
+    <ImageUrl>Blackmantledtamarin.jpg</ImageUrl>
+    <Info>	The black-mantled tamarin, Saguinus nigricollis, is a species of tamarin from the northwestern Amazon in far western Brazil, southeastern Colombia and northeastern Peru. It has often included the Graells's tamarin as a subspecies (in which case the distribution extends into eastern Ecuador), but differs from that species in having reddish-orange rump and thighs. The two are often said to be sympatric in Colombia (a major argument for treating them as separate species), though the accuracy of such reports has been questioned. The body length is 15–28 cm. The tail length is 27–42 cm.Family groups consisting of a male, a female and 1 or 2 young live in a defined territory - the female marks branches on the boundaries of the territory with secretions of her anal glands and urine. The female gives birth to 2 young after a gestation of 140 to 150 days. It mainly eats insects, leaves, and fruit.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Goeldi's marmoset	</Name>
+    <Location>	South America	</Location>
+    <ImageUrl>Goeldismarmoset.jpg</ImageUrl>
+    <Info>	The Goeldi's marmoset or Goeldi's monkey (Callimico goeldii) is a small, South American New World monkey that lives in the upper Amazon basin region of Bolivia, Brazil, Colombia, Ecuador, and Peru. It is the only species classified in the genus Callimico, and the monkeys are sometimes referred to as "callimicos".Goeldi's marmosets are blackish or blackish-brown in color and the hair on their head and tail sometimes has red, white, or silverly brown highlights. Their bodies are about 8–9 inches (20–23 cm) long, and their tails are about 10–12 inches (25–30 cm) long.	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	White-footed tamarin	</Name>
+    <Location>	South America	</Location>
+    <ImageUrl>Whitefootedtamarin.jpg</ImageUrl>
+    <Info>	The white-footed tamarin (Saguinus leucopus) is a tamarin species endemic to Colombia. It is a silvery brown colour with pale streaks and russet underparts, and is very similar in appearance to the cotton-top tamarin, from which it is separated by the Atrato River. It is thought that the two species diverged during the Pleistocene, at a time when a sea occupied the area between their present ranges. This tamarin is an arboreal species, living in small family groups in the canopy. Females give birth to one to three young after a gestation period of about 140 days. This species has a relatively small range and is under threat from destruction and fragmentation of the forest in which it lives and the International Union for Conservation of Nature has assessed its conservation status as "endangered".	</Info>
+  </Monkey>
+  <Monkey>
+    <Name>	Geoffroy's tamarin	</Name>
+    <Location>	Panama and Columbia	</Location>
+    <ImageUrl>Geoffroystamarin.jpg</ImageUrl>
+    <Info>	Geoffroy's tamarin (Saguinus geoffroyi), also known as the Panamanian, red-crested or rufous-naped tamarin, is a tamarin, a type of small monkey, found in Panama and Colombia. It is predominantly black and white, with a reddish nape. Diurnal, Geoffroy's tamarin spends most of its time in trees, but does come down to the ground occasionally. It lives in groups that most often number between three and five individuals, and generally include one or more adults of each sex. It eats a variety of foods, including insects, exudates, fruits and other plant parts. Insects and fruits account for the majority of its diet, but exudates are also important. But since its teeth are not adapted for gouging trees to get to the sap, it can only eat exudates when they are easily available. Although a variety of reproductive methods are used, the most common is for a single adult female in the group to be reproductively active and to mate with multiple adult males in the group. After a gestation period of about 145 days, she gives birth to either a single infant or twins. Males contribute significantly to care of the infants. Sexual maturity is reached at about 2 years, and it can live up to 13 years. Geoffroy's tamarin is classified as being of 'least concern' by the IUCN. In common with other callitrichides (tamarins and marmosets), Geoffroy's tamarin is a small monkey. With a length of between 225 and 240 millimetres (8.9 and 9.4 in), excluding the tail, it is the smallest Central American monkey. The tail length is between 314 and 386 millimetres (12.4 and 15.2 in). Males have an average weight of 486 grams (17.1 oz), and females are slightly larger on average, with an average weight of 507 grams (17.9 oz). The fur on its back is variegated black and yellow, with pale legs, feet and chest. Its face is nearly bare, but the head has reddish fur with a triangle-shaped patch in the front of the head. The tail is chestnut-red and has a black tip.	</Info>
+  </Monkey>
+
+</ArrayOfMonkey>

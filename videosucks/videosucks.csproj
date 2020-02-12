@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Aloauttinae.xml" />
+    <None Remove="Data\Aotidae.xml" />
+    <None Remove="Data\Atelinae.xml" />
+    <None Remove="Data\Callicebinae.xml" />
+    <None Remove="Data\Callitrichidae.xml" />
+    <None Remove="Data\Cebidae.xml" />
+    <None Remove="Data\Cercopithecini.xml" />
+    <None Remove="Data\Colobus.xml" />
+    <None Remove="Data\Langur.xml" />
+    <None Remove="Data\Oddnosed.xml" />
+    <None Remove="Data\Papionini.xml" />
+    <None Remove="Data\Pitheciidae.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Aloauttinae.xml" />
+    <EmbeddedResource Include="Data\Aotidae.xml" />
+    <EmbeddedResource Include="Data\Atelinae.xml" />
+    <EmbeddedResource Include="Data\Callicebinae.xml" />
+    <EmbeddedResource Include="Data\Callitrichidae.xml" />
+    <EmbeddedResource Include="Data\Cebidae.xml" />
+    <EmbeddedResource Include="Data\Cercopithecini.xml" />
+    <EmbeddedResource Include="Data\Colobus.xml" />
+    <EmbeddedResource Include="Data\Langur.xml" />
+    <EmbeddedResource Include="Data\Oddnosed.xml" />
+    <EmbeddedResource Include="Data\Papionini.xml" />
+    <EmbeddedResource Include="Data\Pitheciidae.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LibVLCSharp" Version="3.4.2" />
+    <PackageReference Include="LibVLCSharp.Forms" Version="3.4.2" />
+    <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="VideoLAN.LibVLC.Android" Version="3.2.0" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.4.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="MonkeyList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ShowtheMonkey.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SoundPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="StartPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="VideoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="World.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

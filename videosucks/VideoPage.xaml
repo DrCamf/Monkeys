@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="videosucks.VideoPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:shared="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ScrollView
+            x:Name="MainScroll"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <StackLayout Padding="5">
+                <Label StyleClass="titelmonkey" Text="Monkey Videos" />
+                <Label StyleClass="uppmonkey" Text="remember that these are on the internet so preferreably se them when you are on a Wifi connection" />
+                <Label StyleClass="uppmonkey" Text="Mandrill" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="Night Monkeys" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo1"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="De Brazza's monkey" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo2"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="Brown Spider Monkey" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo3"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="Golden Monkey" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo4"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="Maroon leaf monkey" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo5"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="Red backed bearded saki" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo6"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="Suntailed monkey" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo7"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Label
+                    Margin="0,10,0,0"
+                    StyleClass="uppmonkey"
+                    Text="Whiteheaded Langur" />
+                <shared:MediaPlayerElement
+                    x:Name="myvideo8"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="videosucks.World"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ScrollView
+            x:Name="MainScroll"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <StackLayout Padding="10">
+                <Label
+                    x:Name="worldName"
+                    HorizontalOptions="Center"
+                    StyleClass="titelmonkey" />
+                <ListView x:Name="WorldOMonkey">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="5">
+                                    <Label
+                                        StyleClass="uppmonkey"
+                                        Text="{Binding Name}" 
+                                        Margin="0,5"/>
+                                    <Label
+                                        StyleClass="infomonkey"
+                                        Text="{Binding Info}"
+                                        />
+                                    <Grid Padding="10">
+                                        <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label
+                                        Grid.Row="1"
+                                        StyleClass="infomonkey"
+                                        Text="{Binding GoTo}" />
+                                        <Image
+                                           Grid.Column="1"
+                                            Aspect="AspectFill"
+                                           HeightRequest="100"
+                                            Source="{Binding ImageUrl}"
+                                            WidthRequest="100" />
+
+                                    </Grid>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>
